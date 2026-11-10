@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK3_Request__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Linked Request</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Only open CalMK3 Requests can be linked (CalMK3 demo filter).</errorMessage>
+        <filterItems>
+            <field>CalMK3_Request__c.CalMK3_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>CalMK3_Request__c</referenceTo>
+    <relationshipLabel>Linked Tickets</relationshipLabel>
+    <relationshipName>CalMK3_Ticket_Links</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

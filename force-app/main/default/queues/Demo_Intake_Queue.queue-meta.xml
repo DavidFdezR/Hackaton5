@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
-    <doesIncludeBosses>true</doesIncludeBosses>
+    <description>CalTD D1 queue.</description>
+    <doesIncludeBosses>false</doesIncludeBosses>
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Demo Intake Queue</name>
     <queueMembers>
-        <users>
-            <user>demo.intake.agent@calhack-jaheer-f9b52f.example</user>
-        </users>
+        <publicGroups>
+            <publicGroup>CalTD_Intake_Members</publicGroup>
+        </publicGroups>
     </queueMembers>
-    <queueSobject>
-        <sobjectType>Case</sobjectType>
-    </queueSobject>
     <queueSobject>
         <sobjectType>Lead</sobjectType>
     </queueSobject>

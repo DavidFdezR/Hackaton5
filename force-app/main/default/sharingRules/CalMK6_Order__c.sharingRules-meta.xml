@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CalMK6_West_To_West_Managers</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>CALHACK-103 Q-030 outcome: West orders shared read-only with the CalMK6 West Managers group.</description>
+        <label>CalMK6 West To West Managers</label>
+        <sharedTo>
+            <group>CalMK6_West_Managers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>West</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

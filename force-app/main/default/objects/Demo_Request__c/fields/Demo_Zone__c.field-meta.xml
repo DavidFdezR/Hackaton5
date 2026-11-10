@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_Zone__c</fullName>
+    <description>CalTD D1: BR-057/058.</description>
     <label>Demo Zone</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
@@ -26,6 +27,7 @@
             <valueName>N1</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>North</controllingFieldValue>
             <controllingFieldValue>South</controllingFieldValue>
             <valueName>S1</valueName>
         </valueSettings>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalTD_Demo_Approval_Required_Legacy</fullName>
+    <active>true</active>
+    <description>CalTD D1: BR-030 &apos;another similarly named rule is active&apos;. Blocks only negative tax rates.</description>
+    <errorConditionFormula>Demo_Tax_Rate__c &lt; 0</errorConditionFormula>
+    <errorDisplayField>Demo_Tax_Rate__c</errorDisplayField>
+    <errorMessage>Demo tax rate cannot be negative</errorMessage>
+</ValidationRule>

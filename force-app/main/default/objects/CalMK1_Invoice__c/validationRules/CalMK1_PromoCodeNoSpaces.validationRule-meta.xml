@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK1_PromoCodeNoSpaces</fullName>
+    <active>true</active>
+    <description>Promo codes may not contain spaces (only on CalMK1_Invoice__c).</description>
+    <errorConditionFormula>CONTAINS(CalMK1_PromoCode__c, &apos; &apos;)</errorConditionFormula>
+    <errorDisplayField>CalMK1_PromoCode__c</errorDisplayField>
+    <errorMessage>CalMK1: promo code must not contain spaces.</errorMessage>
+</ValidationRule>

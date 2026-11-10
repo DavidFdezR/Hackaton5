@@ -1,0 +1,4 @@
+<!-- CALHACK T-176: approves the refund in ?id= on page load (action= runs on GET). -->
+<apex:page controller="CalMK4C_RefundApproveCtrl" action="{!approve}">
+    <p>Refund {!refund.Name} is now: {!refund.Status__c}</p>
+</apex:page>

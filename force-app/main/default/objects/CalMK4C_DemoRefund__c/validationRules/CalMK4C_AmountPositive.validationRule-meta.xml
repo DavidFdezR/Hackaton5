@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK4C_AmountPositive</fullName>
+    <active>true</active>
+    <description>CALHACK T-183: refund amount must be positive.</description>
+    <errorConditionFormula>Amount__c &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>Refund amount must be greater than zero.</errorMessage>
+</ValidationRule>

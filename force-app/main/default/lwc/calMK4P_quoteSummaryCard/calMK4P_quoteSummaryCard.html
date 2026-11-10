@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="CalMK4P Quote Summary">
+        <template lwc:if={quote.data}>
+            <p class="slds-p-horizontal_small">{quote.data.Name}: {quote.data.Amount__c}</p>
+            <template lwc:if={showDiscount}><p class="slds-p-horizontal_small">Discount {quote.data.Discount_Pct__c}%</p></template>
+        </template>
+        <lightning-button label="Select" onclick={handleSelect} slot="actions"></lightning-button>
+    </lightning-card>
+</template>

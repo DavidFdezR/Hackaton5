@@ -1,0 +1,4 @@
+<apex:page controller="CalMK1_InvoiceSummaryCtrl" showHeader="false">
+    <h1>CalMK1 invoice summary</h1>
+    <p>Invoices visible to you: {!visibleCount}</p>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK1_PromoLabel__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(CalMK1_PromoCode__c), &apos;NO PROMO&apos;, &apos;PROMO &apos; &amp; LEFT(CalMK1_PromoCode__c, 40))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CalMK1 Promo Label</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

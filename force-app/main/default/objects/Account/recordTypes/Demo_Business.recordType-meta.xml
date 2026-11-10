@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_Business</fullName>
     <active>true</active>
+    <description>CalTD D1: BR-005/006, BR-011/012.</description>
     <label>Demo Business</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
@@ -23,6 +24,21 @@
         </values>
         <values>
             <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Demo_Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
             <default>false</default>
         </values>
     </picklistValues>

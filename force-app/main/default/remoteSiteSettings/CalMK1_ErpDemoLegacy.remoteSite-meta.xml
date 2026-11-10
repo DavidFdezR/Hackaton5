@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK S-056 planted INACTIVE: plain HTTP + Disable Protocol Security. Activating it is the risky change.</description>
+    <disableProtocolSecurity>true</disableProtocolSecurity>
+    <isActive>false</isActive>
+    <url>http://erp-legacy.calmk1.demo.example</url>
+</RemoteSiteSetting>

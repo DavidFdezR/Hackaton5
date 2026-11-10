@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_Amount__c</fullName>
+    <description>CalTD D1 Demo Invoice number field.</description>
     <externalId>false</externalId>
     <label>Demo Amount</label>
     <precision>16</precision>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalHK_Renewal</fullName>
+    <active>true</active>
+    <description>CALHACK-101 D2 fixture record type (B-201/B-202).</description>
+    <label>CalHK Renewal</label>
+</RecordType>

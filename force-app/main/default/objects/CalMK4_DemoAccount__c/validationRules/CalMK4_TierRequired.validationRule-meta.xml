@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK4_TierRequired</fullName>
+    <active>true</active>
+    <description>CALHACK T-103 pre-change state: Tier__c is required for every save (no bypass).</description>
+    <errorConditionFormula>ISBLANK(Tier__c)</errorConditionFormula>
+    <errorDisplayField>Tier__c</errorDisplayField>
+    <errorMessage>CalMK4: Tier is required.</errorMessage>
+</ValidationRule>

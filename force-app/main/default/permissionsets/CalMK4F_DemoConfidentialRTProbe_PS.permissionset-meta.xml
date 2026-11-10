@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK round3 B T-170 probe: ONLY record type visibility for CalMK4F_DemoEmployee__c.Confidential (the AFTER state of the T-170 change). Unassigned; tests assign it and roll back.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalMK4F Demo Confidential RT Probe</label>
+    <recordTypeVisibilities>
+        <recordType>CalMK4F_DemoEmployee__c.Confidential</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

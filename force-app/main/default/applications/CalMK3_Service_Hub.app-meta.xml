@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>CALHACK-101: app default record page for CalMK3 Tickets</comment>
+        <content>CalMK3_Ticket_Service_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>CalMK3_Ticket__c</pageOrSobjectType>
+    </actionOverrides>
+    <description>CALHACK-101 demo Lightning app (CalMK3_ prefix). App-scoped page assignments only.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>CalMK3 Service Hub</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>CalMK3_Request_Service_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CalMK3_Request__c</pageOrSobjectType>
+        <recordType>CalMK3_Request__c.CalMK3_Field_Service</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>CalMK3_Ticket__c</tabs>
+    <tabs>CalMK3_Request__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

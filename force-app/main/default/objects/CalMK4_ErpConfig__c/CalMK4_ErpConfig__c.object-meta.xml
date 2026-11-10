@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>CALHACK T-129: ERP config hierarchy custom setting, visibility Public. Holds mock key DEMO_PASSWORD_PLACEHOLDER only.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>CalMK4 ERP Config</label>
+    <visibility>Public</visibility>
+</CustomObject>

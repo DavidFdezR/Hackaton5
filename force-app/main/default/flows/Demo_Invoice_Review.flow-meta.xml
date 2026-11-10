@@ -3,19 +3,19 @@
     <apiVersion>62.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
-        <name>Set_Note</name>
-        <label>Set Note</label>
+        <name>Set_Review_Note</name>
+        <label>Set Review Note</label>
         <locationX>176</locationX>
         <locationY>134</locationY>
         <assignmentItems>
-            <assignToReference>demoNote</assignToReference>
+            <assignToReference>varReviewNote</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>version 3</stringValue>
+                <stringValue>Demo invoice review version 3</stringValue>
             </value>
         </assignmentItems>
     </assignments>
-    <description>CALHACK-101 fixture version 3</description>
+    <description>CalTD D1 BR-031/032 fixture, version 3. Autolaunched, no trigger, no DML.</description>
     <environments>Default</environments>
     <interviewLabel>Demo Invoice Review {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Demo Invoice Review</label>
@@ -25,23 +25,17 @@
             <stringValue>LightningFlowBuilder</stringValue>
         </value>
     </processMetadataValues>
-    <processMetadataValues>
-        <name>CanvasMode</name>
-        <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
-        </value>
-    </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Set_Note</targetReference>
+            <targetReference>Set_Review_Note</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <variables>
-        <name>demoNote</name>
+        <name>varReviewNote</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

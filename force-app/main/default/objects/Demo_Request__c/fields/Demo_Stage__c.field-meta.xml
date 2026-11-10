@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_Stage__c</fullName>
+    <description>CalTD D1: BR-033/034, 055/056, 105/106.</description>
     <label>Demo Stage</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
@@ -13,6 +14,11 @@
                 <fullName>New</fullName>
                 <default>false</default>
                 <label>New</label>
+            </value>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <label>Qualification</label>
             </value>
             <value>
                 <fullName>Escalated</fullName>

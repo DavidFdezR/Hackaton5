@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>calhk-admin@calhk.example</contactEmail>
+    <description>CALHACK-101 D2 B-106 stand-in (Connected Apps refused in hack): client credentials enabled in settings, no Run As user in policies.</description>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>Demo_ETL_App</label>
+    <orgScopedExternalApp>00Dh9000002aUyY:Demo_ETL_App</orgScopedExternalApp>
+</ExternalClientApplication>

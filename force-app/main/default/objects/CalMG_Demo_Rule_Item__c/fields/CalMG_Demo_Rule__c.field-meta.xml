@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMG_Demo_Rule__c</fullName>
+    <label>CalMG Demo Rule</label>
+    <referenceTo>CalMG_Demo_Rule__c</referenceTo>
+    <relationshipLabel>Rule Items</relationshipLabel>
+    <relationshipName>Rule_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

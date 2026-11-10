@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 D2 B-108 fixture: NO External Credential Principal Access (planted absent state).</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalHK_ERP_Access_Absent</label>
+</PermissionSet>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="CalMK1 open invoices">
+        <template lwc:if={invoices.data}>
+            <template for:each={invoices.data} for:item="inv">
+                <p key={inv.Id}>{inv.Name}</p>
+            </template>
+        </template>
+    </lightning-card>
+</template>

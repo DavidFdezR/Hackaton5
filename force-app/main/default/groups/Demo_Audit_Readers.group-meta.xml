@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Group xmlns="http://soap.sforce.com/2006/04/metadata">
-    <doesIncludeBosses>true</doesIncludeBosses>
+    <description>CalTD D1: BR-027/028, BR-069/070.</description>
+    <doesIncludeBosses>false</doesIncludeBosses>
     <name>Demo Audit Readers</name>
 </Group>

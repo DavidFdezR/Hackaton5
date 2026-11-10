@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 D2 B-213/B-214: permission set group that receives CalHK_Invoice_Admin.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalHK_Ops_PSG</label>
+    <permissionSets>CalHK_Invoice_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

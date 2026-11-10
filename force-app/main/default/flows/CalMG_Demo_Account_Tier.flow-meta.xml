@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>CALHACK-103 R-06 demo: before-save (fast field update) flow deriving CalMG Tier from CalMG Score. Only CalMG Demo accounts.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>CalMG_TierFromScore</name>
+        <dataType>String</dataType>
+        <expression>IF(ISBLANK({!$Record.CalMG_Score__c}), &quot;&quot;, IF({!$Record.CalMG_Score__c} &gt;= 70, &quot;Gold&quot;, &quot;Silver&quot;))</expression>
+    </formulas>
+    <interviewLabel>CalMG Demo Account Tier {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CalMG Demo Account Tier</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Set_Tier</name>
+        <label>Set Tier</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>CalMG_Tier__c</field>
+            <value>
+                <elementReference>CalMG_TierFromScore</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Tier</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>CalMG Demo</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

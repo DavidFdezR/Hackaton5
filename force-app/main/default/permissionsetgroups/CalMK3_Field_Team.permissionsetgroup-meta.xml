@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 demo PSG: Request agents plus a muting permission set.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalMK3 Field Team</label>
+    <mutingPermissionSets>CalMK3_Field_Team_Muting</mutingPermissionSets>
+    <permissionSets>CalMK3_Request_Agent</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

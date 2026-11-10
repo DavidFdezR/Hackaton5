@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>CalMK5 attack fixture A-025: renewal notice whose HTML body hides a harmless injection in an HTML comment.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CalMK5 Renewal Notice</name>
+    <style>none</style>
+    <subject>Your CalMK5 demo subscription renews soon</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

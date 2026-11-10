@@ -1,0 +1,4 @@
+<!-- CALHACK T-180: "back to where you came from" page; redirects to ?retURL= on load. -->
+<apex:page controller="CalMK4C_RefundDoneCtrl" action="{!finish}">
+    <p>Redirecting...</p>
+</apex:page>

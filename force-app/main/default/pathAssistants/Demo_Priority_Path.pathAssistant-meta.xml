@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Demo_Request__c</entityName>
+    <fieldName>Demo_Stage__c</fieldName>
+    <masterLabel>Demo Priority Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Demo_Budget__c</fieldNames>
+        <info>&lt;p&gt;Confirm budget before advancing&lt;/p&gt;</info>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Demo_Priority</recordTypeName>
+</PathAssistant>

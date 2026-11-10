@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMG_Demo_Branch_Queue_CalMG_Demo_FinAccount</fullName>
+    <filterScope>Queue</filterScope>
+    <label>CalMG Demo Branch Queue</label>
+    <queue>CalMG_Demo_Branch_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

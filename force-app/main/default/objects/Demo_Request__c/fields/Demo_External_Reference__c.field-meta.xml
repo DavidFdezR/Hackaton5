@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_External_Reference__c</fullName>
-    <description>Reference 80</description>
+    <description>Reference 80 (CalTD D1 BR-051/052: this description text is not the configured length).</description>
     <externalId>false</externalId>
     <label>Demo External Reference</label>
-    <length>80</length>
+    <length>40</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

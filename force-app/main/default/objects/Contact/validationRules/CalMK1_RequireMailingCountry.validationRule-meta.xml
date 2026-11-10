@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK1_RequireMailingCountry</fullName>
+    <active>false</active>
+    <description>CALHACK-98 S-062 planted rule (manoj.kumar). Kept INACTIVE: lives on a standard object so a wildcard retrieve misses it.</description>
+    <errorConditionFormula>ISBLANK(MailingCountry)</errorConditionFormula>
+    <errorMessage>CalMK1: Mailing Country is required.</errorMessage>
+</ValidationRule>

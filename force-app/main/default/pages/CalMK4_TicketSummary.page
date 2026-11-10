@@ -1,0 +1,5 @@
+<!-- CALHACK T-127 (planted, bad on purpose): user-editable Description__c rendered with escape="false" (stored XSS). -->
+<apex:page standardController="CalMK4_DemoTicket__c" showHeader="false" sidebar="false">
+    <h1>CalMK4 Ticket summary</h1>
+    <div id="calmk4-desc"><apex:outputText value="{!CalMK4_DemoTicket__c.Description__c}" escape="false"/></div>
+</apex:page>

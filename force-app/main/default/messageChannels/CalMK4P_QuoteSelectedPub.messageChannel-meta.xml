@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK T-153 proof: exposed channel referenced by calMK4P_quoteSelectedProbe; used to test true to false.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Selected CalMK4P_Quote__c id</description>
+        <fieldName>quoteId</fieldName>
+    </lightningMessageFields>
+    <masterLabel>CalMK4P Quote Selected Pub</masterLabel>
+</LightningMessageChannel>

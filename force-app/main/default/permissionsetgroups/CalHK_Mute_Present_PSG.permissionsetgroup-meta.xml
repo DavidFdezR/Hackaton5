@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 D2 B-215: CalHK_Invoice_Admin + muting set CalTD_Mute_Present_MPS.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalHK_Mute_Present_PSG</label>
+    <mutingPermissionSets>CalTD_Mute_Present_MPS</mutingPermissionSets>
+    <permissionSets>CalHK_Invoice_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

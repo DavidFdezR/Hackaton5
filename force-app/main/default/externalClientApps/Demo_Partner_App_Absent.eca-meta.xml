@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>calhk-admin@calhk.example</contactEmail>
+    <description>CALHACK-101 D2 B-114 stand-in (Connected Apps refused in hack): full left in place next to api.</description>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>Demo_Partner_App_Absent</label>
+    <orgScopedExternalApp>00Dh9000002aUyY:Demo_Partner_App_Absent</orgScopedExternalApp>
+</ExternalClientApplication>

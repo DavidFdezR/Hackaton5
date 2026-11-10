@@ -143,19 +143,20 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>CalTD D1 fixture for CALHACK-101 browser rows (Jaheer BR-001..BR-112).</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <label>Demo Invoice</label>
     <nameField>
-        <label>Demo Invoice Name</label>
+        <label>Demo Invoice Number</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Demo Invoices</pluralLabel>

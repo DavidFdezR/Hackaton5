@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 D2 B-214 probe: empty group used to observe the transient Updating/Outdated status after adding a component.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalTD_Ops_Probe_PSG</label>
+    <permissionSets>CalHK_Invoice_Viewer</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

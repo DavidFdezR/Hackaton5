@@ -1,0 +1,4 @@
+<!-- CALHACK RESERVE-1: same page with "Require CSRF protection on GET requests" (confirmationTokenRequired) on. -->
+<apex:page controller="CalMK4C_RefundApproveCtrl" action="{!approve}">
+    <p>Refund {!refund.Name} is now: {!refund.Status__c}</p>
+</apex:page>

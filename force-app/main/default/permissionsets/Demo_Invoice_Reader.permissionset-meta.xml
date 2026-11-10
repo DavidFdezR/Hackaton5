@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CalTD D1: BR-015/016 (assignments, Blocked), BR-017/018 Demo_Total__c, BR-085/086 Demo_Z_Final_Review__c.</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>Demo_Invoice__c.Demo_Total__c</field>

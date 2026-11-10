@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CALHACK-101 demo PSG: Ticket agents, no muting.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CalMK3 Ops Team</label>
+    <permissionSets>CalMK3_Ticket_Agent</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

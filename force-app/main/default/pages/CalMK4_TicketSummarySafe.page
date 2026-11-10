@@ -1,0 +1,5 @@
+<!-- CALHACK T-128 twin (safe): same field with default escaping. -->
+<apex:page standardController="CalMK4_DemoTicket__c" showHeader="false" sidebar="false">
+    <h1>CalMK4 Ticket summary</h1>
+    <div id="calmk4-desc"><apex:outputText value="{!CalMK4_DemoTicket__c.Description__c}"/></div>
+</apex:page>

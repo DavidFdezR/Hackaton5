@@ -77,8 +77,28 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>ECA_003</name>
+        <name>CalMK3_Service_Hub</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ECA_005</name>
         <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Demo_ETL_App</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Demo_Partner_App</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Demo_Partner_App_Absent</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Demo_Service_Console</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>Demo_Sales</name>
@@ -86,10 +106,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>Demo_Service</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Demo_Service_Console</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

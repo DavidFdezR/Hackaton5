@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Possible_Duplicate_Of__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Possible Duplicate Of</label>
+    <referenceTo>CalMG_Demo_Customer__c</referenceTo>
+    <relationshipLabel>Possible Duplicates</relationshipLabel>
+    <relationshipName>Possible_Duplicates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

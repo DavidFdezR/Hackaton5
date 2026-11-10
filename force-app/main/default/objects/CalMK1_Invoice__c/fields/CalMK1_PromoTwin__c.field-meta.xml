@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalMK1_PromoTwin__c</fullName>
+    <description>Truncation experiment twin of CalMK1_PromoCode__c (S-051)</description>
+    <externalId>false</externalId>
+    <label>CalMK1 Promo Twin</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
