@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Open_Urgent_Requests</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Demo_Status__c</columns>
+    <columns>Demo_Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Demo_Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Demo_Priority__c</field>
+        <operation>equals</operation>
+        <value>Urgent</value>
+    </filters>
+    <label>Demo Open Urgent Requests</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

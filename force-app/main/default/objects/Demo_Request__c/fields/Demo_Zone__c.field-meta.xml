@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Zone__c</fullName>
+    <label>Demo Zone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Demo_Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N1</fullName>
+                <default>false</default>
+                <label>N1</label>
+            </value>
+            <value>
+                <fullName>S1</fullName>
+                <default>false</default>
+                <label>S1</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>North</controllingFieldValue>
+            <valueName>N1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South</controllingFieldValue>
+            <valueName>S1</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

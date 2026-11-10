@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Demo Escalation Queue</name>
+    <queueMembers>
+        <users>
+            <user>demo.queue.agent@calhack-jaheer-f9b52f.example</user>
+            <user>demo.queue.agent.backup@calhack-jaheer-f9b52f.example</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

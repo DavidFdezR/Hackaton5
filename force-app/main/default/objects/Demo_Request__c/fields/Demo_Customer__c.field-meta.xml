@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Customer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Demo Customer</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.Rating</field>
+            <operation>equals</operation>
+            <value>Hot</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Demo Requests</relationshipLabel>
+    <relationshipName>Demo_Requests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
